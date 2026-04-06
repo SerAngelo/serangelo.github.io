@@ -1,6 +1,6 @@
 cv:
   name: Angelo Serrecchia
-  label: Scientist
+  label: Physicist
   email: serrecchia.1919476@studenti.uniroma1.it
   location: Rome, Italy
   image: ""
@@ -8,7 +8,7 @@ cv:
 
   social_networks:
     - network: GitHub
-      username: # insert your GitHub username here
+      username: # insert your GitHub username
 
   address:
     street: Via Selva 11
@@ -28,7 +28,8 @@ cv:
         end_date: present
         score: "Expected 110/110 — Weighted average: 29.3/30"
         courses: "Fundamental interactions: theory and experiment (fully taught in English)"
-        highlights: []
+        highlights:
+          - "M.Sc. Thesis: *Characterisation of the DarkSide Proto-0 dual-phase liquid argon time projection chamber* — Supervisors: Valerio Ippolito, Marco Rescigno (expected defence: Jul 2026)"
 
       - institution: Sapienza University of Rome
         location: Rome, Italy
@@ -38,21 +39,21 @@ cv:
         start_date: 2019
         end_date: 2022
         score: "109/110 — Weighted average: 27.7/30"
-        highlights: []
+        courses: ""
+        highlights:
+          - "B.Sc. Thesis: *Study of the WIMP–Argon nucleus interaction and application to the DarkSide detector for the direct search for dark matter* — Supervisors: Valerio Ippolito, Sandro De Cecco"
 
     Experience:
       - company: DarkSide-20k / INFN Roma
         position: M.Sc. Thesis Student
-        location: Rome, Italy / Naples, Italy
+        location: Rome / Naples, Italy
         start_date: 2023
         end_date: present
-        summary: >-
-          "Characterisation of the DarkSide Proto-0 dual-phase liquid argon time projection chamber"
-          — Supervisors: Valerio Ippolito, Marco Rescigno. Expected defence: Jul 2026.
+        summary: ""
         highlights:
           - Conducted a comparative study of triggerless and triggered acquisition modes, evaluating their impact on physics data quality
           - Developed new models to characterize cross-talk and afterpulsing phenomena in SiPM array signals
-          - Designed and implemented a baseline reconstruction algorithm to mitigate undershoots and monitor long-term baseline drift in SiPM signals during Proto-0 data taking, successfully integrated into the Front-End Processor of the DarkSide-20k DAQ architecture
+          - Designed and implemented a baseline reconstruction algorithm to mitigate the impact of undershoots and monitor long-term baseline drift in SiPM signals during Proto-0 data taking, successfully integrated into the Front-End Processor of the DarkSide-20k DAQ architecture
           - Tested matched filtering techniques for fake trigger rate reduction
           - Participated in detector operations and data-taking shifts at the Proto-0 facility in Naples, contributing to DarkSide-20k Photo Detection Unit (PDU) testing activities at the PDU Test Facility (PTF)
 
@@ -70,9 +71,7 @@ cv:
         location: Rome, Italy
         start_date: 2022
         end_date: 2022
-        summary: >-
-          "Study of the WIMP–Argon nucleus interaction and application to the DarkSide detector
-          for the direct search for dark matter" — Supervisors: Valerio Ippolito, Sandro De Cecco.
+        summary: ""
         highlights:
           - Performed a Python-based study of WIMP-argon interactions, implementing astrophysical parameters, nuclear form factors and interaction models
           - Modeled the DarkSide-50 detector response to evaluate 90% exclusion limits on WIMP-nucleon cross-sections, comparing them with official results under varying detector and astrophysical assumptions
@@ -92,6 +91,7 @@ cv:
           - Gravitational Wave Open Science Center
         date: 2023-05-01
         awarder: Gravitational Wave Open Science Center
+        url: ""
         summary: Ranked 2nd among 500 participants worldwide in the gravitational-wave signal analysis challenge on LIGO/VIRGO/KAGRA data
 
     Certificates:
