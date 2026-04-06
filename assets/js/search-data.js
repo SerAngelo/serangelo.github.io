@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-certificates",
-          title: "Certificates",
-          description: "Certificates from courses, schools and workshops I have attended.",
+        },{id: "nav-cv-amp-certificates",
+          title: "CV &amp; Certificates",
+          description: "My curriculum vitae and certificates from courses, schools and workshops.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/certificates/";
