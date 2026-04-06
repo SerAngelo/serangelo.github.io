@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
-          title: "CV",
-          description: "",
+  },{id: "nav-cv-amp-certificates",
+          title: "CV &amp; Certificates",
+          description: "My curriculum vitae and certificates from courses, schools and workshops.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/certificates/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -23,15 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv-amp-certificates",
-          title: "CV &amp; Certificates",
-          description: "My curriculum vitae and certificates from courses, schools and workshops.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/certificates/";
-          },
         },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
