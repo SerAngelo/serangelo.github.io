@@ -34,13 +34,15 @@ latest_posts:
 #
 ---
 
-I'm a graduating M.Sc. Physics student at Sapienza University of Rome, specializing in experimental astroparticle physics and rare event searches. I'm incredibly fascinated by the mystery of Dark Matter—arguably the most fundamental unsolved problem in modern physics.
+I'm a graduating M.Sc. Physics student at Sapienza University of Rome, specializing in experimental astroparticle physics and rare event searches. I'm incredibly fascinated by the mystery of Dark Matter — arguably the most fundamental unsolved problem in modern physics.
 
-Currently, for my master's thesis, I am contributing to the DarkSide-20k direct Dark Matter search experiment at LNGS. My work focuses on the comparative study of reconstructed events in triggered versus triggerless data acquisition systems, and on the development of new models for Photon Detection Unit characterization.
+Currently, for my master's thesis, I am contributing to the DarkSide-20k direct Dark Matter search experiment at LNGS. My work focuses on the comparative study of reconstructed events in triggered versus triggerless data acquisition systems for DarkSide Proto-0, a small-scale dual-phase argon TPC operated at INFN Naples, and on the development of new models for Photon Detection Unit characterization.
 
-Previously, during an internship at the National Laboratories of Frascati (LNF), I contributed to characterizing the readout system for CYGNO, an experiment dedicated to directional Dark Matter searches.
+Previously, during an internship at the National Laboratories of Frascati (LNF), I also contributed to characterizing the readout system for CYGNO, an experiment dedicated to directional Dark Matter searches.
 
 
+
+When I'm not doing Physics you can usually find me trekking, playing the guitar and do other stuff.
 
 
 
