@@ -40,8 +40,6 @@ Currently, for my master's thesis, I am contributing to the DarkSide-20k direct 
 
 Previously, during an internship at the National Laboratories of Frascati (LNF), I also contributed to characterizing the readout system for CYGNO, an experiment dedicated to directional Dark Matter searches.
 
-
-
 When I'm not doing Physics you can usually find me trekking, playing the guitar and do other stuff.
 
 
