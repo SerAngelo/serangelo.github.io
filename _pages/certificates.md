@@ -9,9 +9,12 @@ nav_order: 4
 
 ## Curriculum Vitae
 
-| Document | Type | |
-|---|---|:---:|
-| **Curriculum Vitae** | PDF, updated April 2026 | [📄 See/Download]({{ '/assets/pdf/cv.pdf' | relative_url }}) |
+<p style="font-size: 1.1rem; margin: 1.5rem 0;">
+  <i class="fas fa-file-pdf"></i>&nbsp;
+  <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank">
+    Download my CV (PDF, updated April 2026)
+  </a>
+</p>
 
 <hr style="margin: 2rem 0;">
 
@@ -19,7 +22,7 @@ nav_order: 4
 
 | Certificate | Issuer | Date | |
 |---|---|---|:---:|
-| Geant4 Advanced Course | CERN | Oct 2024 | [📄 See/Download]({{ '/assets/pdf/geant4_advancedcourse_certificate.pdf' | relative_url }}) |
-| OpenLabs Tutor | INFN-LNF | May 2024 | [📄 See/Download]({{ '/assets/pdf/Attestato_openlabs_2024_Serrecchia.pdf' | relative_url }}) |
-| HASCO Summer School | University of Göttingen | Jul 2023 | [📄 See/Download]({{ '/assets/pdf/hasco_summerschool_certificate.pdf' | relative_url }}) |
-| GWOSC Data Challenge — 2nd Place | Gravitational Wave Open Science Center | May 2023 | [📄 See/Download]({{ '/assets/pdf/gwosc_2ndplacedatachallenge_certificate.pdf' | relative_url }}) |
+| Geant4 Advanced Course | CERN | Oct 2024 | [📄]({{ '/assets/pdf/geant4_advancedcourse_certificate.pdf' | relative_url }}) |
+| OpenLabs Tutor | INFN-LNF | May 2024 | [📄]({{ '/assets/pdf/Attestato_openlabs_2024_Serrecchia.pdf' | relative_url }}) |
+| HASCO Summer School | University of Göttingen | Jul 2023 | [📄]({{ '/assets/pdf/hasco_summerschool_certificate.pdf' | relative_url }}) |
+| GWOSC Data Challenge — 2nd Place | Gravitational Wave Open Science Center | May 2023 | [📄]({{ '/assets/pdf/gwosc_2ndplacedatachallenge_certificate.pdf' | relative_url }}) |
