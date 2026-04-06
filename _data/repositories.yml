@@ -1,9 +1,13 @@
-github_users:
-  - SerAngelo
+# Repositories
 
-repo_description_lines_max: 2
+- name: repo1
+  description: This is the first repo.
+  url: https://github.com/SerAngelo/repo1
 
-github_repos:
-  - SerAngelo/CYGNO-PMT-analysis
-  - SerAngelo/StudyOrganizer
-  - SerAngelo/RadMap
+- name: repo2
+  description: This is the second repo.
+  url: https://github.com/SerAngelo/repo2
+
+- name: repo3
+  description: This is the third repo.
+  url: https://github.com/SerAngelo/repo3
