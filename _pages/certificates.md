@@ -1,11 +1,28 @@
 ---
 layout: page
 permalink: /certificates/
-title: Certificates
-description: Certificates from courses, schools and workshops I have attended.
+title: CV & Certificates
+description: My curriculum vitae and certificates from courses, schools and workshops.
 nav: true
 nav_order: 4
 ---
+
+## Curriculum Vitae
+
+<div style="margin-bottom: 1rem;">
+  <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">
+    <i class="fas fa-download"></i> Download CV (PDF)
+  </a>
+</div>
+
+<object data="{{ '/assets/pdf/cv.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
+  <p>Your browser does not support embedded PDFs.
+  <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">Download the CV here</a>.</p>
+</object>
+
+---
+
+## Certificates
 
 | Certificate | Issuer | Date | |
 |---|---|---|:---:|
