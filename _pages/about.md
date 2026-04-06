@@ -10,18 +10,18 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Via Selva 11</p>
-    <p>Rome, Italy, Earth, Solar System, Orion Arm, Milky Way, Local Group, Laniakea Supercluster, The Universe.</p>
+    <p>Colfelice (FR), Italy, Earth, Solar System, Orion Arm, Milky Way, Local Group, Laniakea Supercluster, The Universe.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -34,7 +34,11 @@ latest_posts:
 #
 ---
 
-I'm a graduating M.Sc. Physics student at Sapienza University of Rome specializing in experimental astroparticle physics and rare event searches. I'm currently contributing to DarkSide-20k experiment for the direct search of Dark Matter.
+I'm a graduating M.Sc. Physics student at Sapienza University of Rome, specializing in experimental astroparticle physics and rare event searches. I'm incredibly fascinated by the mystery of Dark Matter—arguably the most fundamental unsolved problem in modern physics.
+
+Currently, for my master's thesis, I am contributing to the DarkSide-20k direct Dark Matter search experiment at LNGS. My work focuses on the comparative study of reconstructed events in triggered versus triggerless data acquisition systems, and on the development of new models for Photon Detection Unit characterization.
+
+Previously, during an internship at the National Laboratories of Frascati (LNF), I contributed to characterizing the readout system for CYGNO, an experiment dedicated to directional Dark Matter searches.
 
 
 
