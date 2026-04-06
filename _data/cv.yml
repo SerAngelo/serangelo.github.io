@@ -6,10 +6,6 @@ cv:
   image: ""
   summary: Graduating M.Sc. student in Physics at Sapienza University of Rome, specializing in experimental astroparticle physics and rare event searches. Currently contributing to the DarkSide-20k experiment for the direct detection of dark matter.
 
-  social_networks:
-    - network: GitHub
-      username: # insert your GitHub username
-
   address:
     street: Via Selva 11
     city: Colfelice (FR)
@@ -124,19 +120,6 @@ cv:
         summary: Presented the CYGNO experiment at the INFN OpenLabs outreach event, explaining detector mechanics and signal acquisition to the general public.
         highlights: []
 
-    Projects:
-      - name: Arduino-based Geiger–Müller Counter
-        summary: Designed and constructed a Geiger-Müller counter with Arduino-based data acquisition system, implementing real-time readout and automated data logging for offline analysis.
-        highlights: []
-        start_date: ""
-        end_date: ""
-
-      - name: Machine Learning for Antihydrogen Annihilation Detection
-        summary: Developed and tested deep learning models in Python for event classification in antihydrogen annihilation open-data from ASACUSA experiment, aiming to improve detection efficiency over existing methods.
-        highlights: []
-        start_date: ""
-        end_date: ""
-
     Skills:
       - name: Programming Languages
         level: ""
@@ -151,7 +134,7 @@ cv:
       - name: Electronics and Instrumentation
         level: ""
         icon: fa-solid fa-microchip
-        keywords: "Oscilloscope-based signal analysis, circuit design, Arduino/Raspberry Pi, detector DAQ setup and readout"
+        keywords: "Oscilloscope-based signal measurements, circuit design, Arduino/Raspberry Pi, detector DAQ setup and readout"
 
       - name: Computing
         level: ""

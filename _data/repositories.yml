@@ -4,6 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  . SerAngelo/CYGNO-PMT-analysis
+  - SerAngelo/CYGNO-PMT-analysis
   - SerAngelo/StudyOrganizer
   - SerAngelo/RadMap
