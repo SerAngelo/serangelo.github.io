@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-university-notes",
+          title: "University Notes",
+          description: "Lecture notes from the courses I have taken at Sapienza University of Rome.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/notes/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "A collection of projects.",
@@ -36,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
-          },
-        },{id: "nav-university-notes",
-          title: "University Notes",
-          description: "Lecture notes from the courses I have taken at Sapienza University of Rome.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/notes/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
