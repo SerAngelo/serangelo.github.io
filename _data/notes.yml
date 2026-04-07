@@ -10,6 +10,54 @@
   image: particle_physics_cover.png
   pdf: particle_physics_notes_compressed.pdf
 
+- title: H.E.P laboratory 1
+  description: Lecture notes — Prof. Shahram Rahtlou
+  semester: M.Sc. · 2023/2024
+  image: hep_laboratory_1_cover.png
+  pdf: hep_laboratory_1_notes_compressed.pdf
+
+- title: Physical cosmology
+  description: Lecture notes — Prof. Alessandro Melchiorri
+  semester: M.Sc. · 2023/2024
+  image: physical_cosmology_cover.png
+  pdf: physical_cosmology_notes_compressed.pdf
+
+- title: Nuclear physics
+  description: Lecture notes — Prof. Sandro De Cecco
+  semester: M.Sc. · 2023/2024
+  image: nuclear_physics_cover.png
+  pdf: nuclear_physics_notes_compressed.pdf
+
+- title: Introduction to quantum field theory
+  description: Lecture notes — Prof. Roberto Bonciani
+  semester: M.Sc. · 2023/2024
+  image: introduction_quantum_field_theory_cover.png
+  pdf: introduction_quantum_field_theory_notes_compressed.pdf
+
+- title: Group theory
+  description: Lecture notes — Prof. Gianluca Panati
+  semester: M.Sc. · 2023/2024
+  image: group_theory_cover.png
+  pdf: group_theory_notes_compressed.pdf
+
+- title: Theory of fundamental interactions
+  description: Lecture notes — Prof. Alfredo Urbano
+  semester: M.Sc. · 2023/2024
+  image: TFI_cover.png
+  pdf: TFI_notes_compressed.pdf
+
+- title: General relativity
+  description: Lecture notes — Prof. Paolo Pani
+  semester: M.Sc. · 2023/2024
+  image: general_relativity_cover.png
+  pdf: general_relativity_notes_compressed.pdf
+
+- title: Phenomenology of the Standard Model
+  description: Lecture notes — Prof. Roberto Contino and Marco Nardecchia
+  semester: M.Sc. · 2023/2024
+  image: phenomenology_standard_model_cover.png
+  pdf: phenomenology_standard_model_notes_compressed.pdf
+
 - title: Condensed Matter Physics
   description: Lecture notes — Prof. Marco Grilli
   semester: M.Sc. · 2023/2024
