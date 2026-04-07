@@ -4,7 +4,7 @@ permalink: /notes/
 title: University Notes
 description: Lecture notes from the courses I have taken at Sapienza University of Rome.
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 <style>
