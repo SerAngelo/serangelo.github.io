@@ -12,7 +12,7 @@ nav_order: 1
 <p style="font-size: 1.1rem; margin: 1.5rem 0;">
   <i class="fas fa-file-pdf"></i>&nbsp;
   <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank">
-    See CV (PDF, updated April 2026)
+    See CV (PDF, updated May 2026)
   </a>
 </p>
 
