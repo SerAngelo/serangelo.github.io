@@ -51,17 +51,17 @@
   "cv": {
     "education": [
       {
-        "degree": "Ph.D. Astroparticle Physics",
-        "place": "Gran Sasso Science Institute (GSSI) · DarkSide collaboration",
+        "degree": "Ph.D. in Astroparticle Physics",
+        "place": "Gran Sasso Science Institute (GSSI)",
         "date": "2026–"
       },
       {
-        "degree": "M.Sc. Physics — 110/110",
-        "place": "Sapienza University of Rome · Fundamental interactions: theory & experiment",
+        "degree": "Master of Science in Physics",
+        "place": "Sapienza University of Rome",
         "date": "2023–26"
       },
       {
-        "degree": "B.Sc. Physics — 109/110",
+        "degree": "Bachelor of Science in Physics",
         "place": "Sapienza University of Rome",
         "date": "2019–22"
       }
