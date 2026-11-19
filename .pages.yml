@@ -1,0 +1,81 @@
+media:
+  input: assets/img
+  output: assets/img
+
+content:
+  - name: site
+    label: Site content
+    type: file
+    path: data/content.json
+    format: json
+    fields:
+      - name: hero
+        label: Home — header
+        type: object
+        fields:
+          - { name: eyebrow, label: Small label (eyebrow), type: string }
+          - { name: name, label: Name / headline, type: string }
+          - { name: role_prefix, label: Role (text before the link), type: string }
+          - { name: role_link_label, label: Affiliation (link text), type: string }
+          - { name: role_link_url, label: Affiliation link (URL), type: string }
+          - { name: email, label: Contact email, type: string }
+      - name: about
+        label: About — paragraphs
+        type: string
+        list: true
+      - name: research
+        label: Research
+        type: object
+        fields:
+          - { name: lead, label: Intro line, type: text }
+          - { name: publication_list_url, label: Publication list link (URL), type: string }
+          - name: topics
+            label: Research topics
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: body, label: Description, type: text }
+              - { name: citation_text, label: Paper citation (optional), type: text }
+              - { name: citation_url, label: Paper link (optional), type: string }
+      - name: talks
+        label: Talks & conferences
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: place, label: Where, type: string }
+          - { name: date, label: Date, type: string }
+      - name: cv
+        label: CV
+        type: object
+        fields:
+          - name: education
+            label: Education
+            type: object
+            list: true
+            fields:
+              - { name: degree, label: Degree, type: string }
+              - { name: place, label: Institution, type: string }
+              - { name: date, label: Years, type: string }
+          - { name: award, label: Award, type: text }
+          - { name: skills, label: Technical skills, type: string, list: true }
+          - { name: cv_pdf, label: CV PDF path, type: string }
+      - name: notes
+        label: Notes
+        type: object
+        fields:
+          - { name: lead, label: Intro line, type: text }
+          - name: items
+            label: Note cards
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: cover, label: Cover image, type: image }
+              - { name: url, label: Link / PDF, type: string }
+      - name: hobbies
+        label: Hobbies
+        type: string
+        list: true
