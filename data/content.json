@@ -67,10 +67,7 @@
       "C / C++",
       "ROOT",
       "Geant4",
-      "PyTorch",
-      "Bilby",
       "FPGA / DAQ",
-      "Git",
       "LaTeX"
     ],
     "cv_pdf": "assets/pdf/cv.pdf"
