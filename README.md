@@ -1,35 +1,32 @@
 # Angelo Serrecchia — personal website
 
-Minimal static site. No build step, no framework — plain HTML/CSS/JS.
-Hosted on GitHub Pages at **angeloserrecchia.com**.
+Minimal static site, no build step. Hosted on GitHub Pages.
+The site's **text is edited from a visual panel** (Pages CMS) — you normally
+never touch these files by hand.
 
-## How it's structured
+## Where the content lives
+
+All editable text is in **`data/content.json`**. The pages read it and render
+themselves (see `assets/js/site.js`). The visual panel (Pages CMS, configured
+by `.pages.yml`) edits `data/content.json` for you with simple forms.
+
+## Files
 
 ```
-index.html          Home (intro + about)
-research.html       Research (+ publications inline)
-talks.html          Talks & conferences
-cv.html             CV (education, award, skills)
-notes.html          University notes
-hobbies.html        Hobbies
-CNAME               the custom domain
-.nojekyll           tells GitHub Pages to serve files as-is
-assets/
-  css/style.css     ALL the styling (colors, fonts, spacing) — edit once, applies everywhere
-  js/site.js        the shared MENU + FOOTER — the one place that defines site structure
-  img/              images (put prof_pic.jpg here)
-  pdf/              cv.pdf and notes PDFs
+index / research / talks / cv / notes / hobbies .html   page shells (no text inside)
+data/content.json      ← all the TEXT (edited via the panel)
+.pages.yml             ← tells the visual panel which forms to show
+assets/css/style.css   ← styling (colors, fonts, spacing)
+assets/js/site.js      ← menu + footer + fills the pages from content.json
+assets/img/            ← prof_pic.jpg, note covers (assets/img/notes/)
+assets/pdf/            ← cv.pdf
+CNAME / .nojekyll      ← custom domain + serve files as-is
+robots.txt / sitemap.xml  ← SEO
 ```
 
-## How to change things
+## Editing
 
-- **Text / content** → edit the relevant `.html` file, change the words between the tags.
-- **Colors, fonts, spacing** → edit `assets/css/style.css` (one file for the whole site).
-- **Menu / add or remove a page** → edit the `PAGES` list at the top of `assets/js/site.js`.
-  To add a page: duplicate an existing `.html` file, change its content, then add one
-  line to `PAGES`. The menu updates on every page automatically.
-- **Photo** → put `prof_pic.jpg` in `assets/img/`.
-- **CV** → put `cv.pdf` in `assets/pdf/`.
-
-Each page does NOT contain the menu or footer in its own file — those are injected by
-`assets/js/site.js`, so you never edit the menu in more than one place.
+- **Normal way:** open the panel (Pages CMS) → edit the forms → Save. Done.
+- **Menu / pages:** edit the `PAGES` list at the top of `assets/js/site.js`.
+- **Look:** edit `assets/css/style.css`.
+- **Photo / CV / note covers:** upload into `assets/img/`, `assets/pdf/`.

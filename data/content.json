@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "eyebrow": "Astroparticle physicist",
+    "name": "Hi, I'm Angelo Serrecchia",
+    "role_prefix": "doctoral researcher at",
+    "role_link_label": "Gran Sasso Science Institute",
+    "role_link_url": "https://www.gssi.it/",
+    "email": "angelo.serrecchia@gssi.it"
+  },
+  "about": [
+    "I'm a PhD researcher at the Gran Sasso Science Institute, working on rare-event searches and the direct detection of dark matter — arguably the most fundamental unsolved problem in modern physics. I'm a member of the DarkSide collaboration, working on the DarkSide-20k experiment deep under the Gran Sasso mountain.",
+    "I completed my M.Sc. in Physics at Sapienza University of Rome (110/110), and previously worked on the CYGNO experiment for directional dark matter searches. When I'm not doing physics you'll usually find me trekking or playing the guitar."
+  ],
+  "research": {
+    "lead": "I search for dark matter — the invisible substance that dominates the matter content of the Universe — with liquid-argon detectors deep under the Gran Sasso mountain.",
+    "publication_list_url": "#",
+    "topics": [
+      {
+        "title": "Hunting dark matter with DarkSide-20k",
+        "body": "I work on DarkSide-20k, a next-generation dual-phase liquid-argon time projection chamber searching for WIMP dark matter at the Laboratori Nazionali del Gran Sasso. A dark matter particle would reveal itself as a tiny flash of light and a handful of ionization electrons — and the whole experiment is built to catch it against an almost perfectly quiet background.",
+        "citation_text": "",
+        "citation_url": ""
+      },
+      {
+        "title": "Reading the light: SiPM photo-sensors",
+        "body": "The detector sees through thousands of silicon photomultipliers grouped into Photon Detection Units. I characterize their response — in particular the cross-talk and afterpulse probabilities extracted from the charge spectrum — and build the baseline-reconstruction and real-time data-acquisition tools that turn their raw signals into physics.",
+        "citation_text": "",
+        "citation_url": ""
+      },
+      {
+        "title": "A sense of direction: CYGNO",
+        "body": "Before DarkSide, I worked on CYGNO, which reads out a gas TPC optically to reconstruct the direction of a nuclear recoil — the directional signature that would be a smoking gun for a genuine galactic dark matter signal.",
+        "citation_text": "CYGNO Collaboration, Modeling the light response of an optically read-out GEM-based TPC for the CYGNO experiment, arXiv:2505.06362 (2025).",
+        "citation_url": "https://arxiv.org/abs/2505.06362"
+      }
+    ]
+  },
+  "talks": [
+    { "title": "Cross-talk & afterpulse extraction from the SiPM charge spectrum", "place": "DarkSide-20k Collaboration Meeting, Sardinia", "date": "Jun 2026" },
+    { "title": "Superconducting Technologies for Dark Matter", "place": "Workshop on low-mass dark matter detection, Rome", "date": "May 2026" },
+    { "title": "Outreach — the CYGNO experiment", "place": "INFN OpenLabs, INFN-LNF", "date": "May 2024" }
+  ],
+  "cv": {
+    "education": [
+      { "degree": "Ph.D. Astroparticle Physics", "place": "Gran Sasso Science Institute (GSSI) · DarkSide collaboration", "date": "2026–" },
+      { "degree": "M.Sc. Physics — 110/110", "place": "Sapienza University of Rome · Fundamental interactions: theory & experiment", "date": "2023–26" },
+      { "degree": "B.Sc. Physics — 109/110", "place": "Sapienza University of Rome", "date": "2019–22" }
+    ],
+    "award": "2nd place — GWOSC Data Challenge (2023). Ranked 2nd of ~500 participants worldwide in gravitational-wave signal analysis on LIGO/Virgo/KAGRA data.",
+    "skills": ["Python", "C / C++", "ROOT", "Geant4", "PyTorch", "Bilby", "FPGA / DAQ", "Git", "LaTeX"],
+    "cv_pdf": "assets/pdf/cv.pdf"
+  },
+  "notes": {
+    "lead": "Notes I took during my studies, shared in case they're useful to someone.",
+    "items": [
+      { "title": "Course title", "description": "Short description of the notes.", "cover": "assets/img/notes/note1.jpg", "url": "#" },
+      { "title": "Course title", "description": "Short description of the notes.", "cover": "assets/img/notes/note2.jpg", "url": "#" },
+      { "title": "Course title", "description": "Short description of the notes.", "cover": "assets/img/notes/note3.jpg", "url": "#" }
+    ]
+  },
+  "hobbies": ["Trekking", "Guitar"]
+}
